@@ -19,11 +19,14 @@ class ViewController: UIViewController {
         print (UIScreen.main.bounds.width)
         print (UIScreen.main.bounds.height)
         let boxSizes = boxSize()
+        
+        
+        /*
         var viewInfo = fisrtView.frame
         var secondViewInfo = secondView.frame
         var thirdViewInfo = thirdView.frame
         var fourthViewInfo = fourthView.frame
-       
+       */
         
         /* print("x eksenine olan uzaklık:  \(viewInfo.origin.x)")
         print("y eksenine olan uzaklık: \(viewInfo.origin.y)")
@@ -32,9 +35,11 @@ class ViewController: UIViewController {
         */
         
         
-        
-     
-        
+        fisrtView.frame = uiFrameSize(frame: fisrtView.frame, isPortrail: true, x: 20, y: 20)
+        secondView.frame = uiFrameSize(frame: secondView.frame, isPortrail: true, x: boxSizes.width + 40, y: 20)
+        thirdView.frame = uiFrameSize(frame: thirdView.frame, isPortrail: true, x: 20, y: boxSizes.height + 40)
+        fourthView.frame = uiFrameSize(frame: fourthView.frame, isPortrail: true, x: boxSizes.width + 40, y: boxSizes.height + 40)
+        /*
         viewInfo.origin.x = 20
         viewInfo.origin.y = 20
         viewInfo.size.width = boxSizes.width
@@ -59,7 +64,7 @@ class ViewController: UIViewController {
         fourthViewInfo.size.height = boxSizes.height
         fourthView.frame = fourthViewInfo
        
-        
+     */
        
         // Do any additional setup after loading the view, typically from a nib.
     }

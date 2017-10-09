@@ -15,6 +15,7 @@
 		1854068E1F8B4FCA00254102 /* layoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854068D1F8B4FCA00254102 /* layoutAppTests.swift */; };
 		185406991F8B4FCA00254102 /* layoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185406981F8B4FCA00254102 /* layoutAppUITests.swift */; };
 		185406A81F8B6F0700254102 /* boxSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185406A71F8B6F0700254102 /* boxSize.swift */; };
+		185406AA1F8B7B2700254102 /* frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185406A91F8B7B2700254102 /* frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		185406981F8B4FCA00254102 /* layoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = layoutAppUITests.swift; sourceTree = "<group>"; };
 		1854069A1F8B4FCB00254102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185406A71F8B6F0700254102 /* boxSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = boxSize.swift; sourceTree = "<group>"; };
+		185406A91F8B7B2700254102 /* frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				185406A71F8B6F0700254102 /* boxSize.swift */,
+				185406A91F8B7B2700254102 /* frame.swift */,
 			);
 			name = tools;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1854067B1F8B4FC900254102 /* ViewController.swift in Sources */,
+				185406AA1F8B7B2700254102 /* frame.swift in Sources */,
 				185406791F8B4FC800254102 /* AppDelegate.swift in Sources */,
 				185406A81F8B6F0700254102 /* boxSize.swift in Sources */,
 			);
