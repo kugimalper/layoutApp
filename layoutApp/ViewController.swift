@@ -72,7 +72,7 @@ class ViewController: UIViewController {
     
     
     
-    
+  /*
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         if UIDevice.current.orientation.isLandscape {
             print ("sola veya sağa çevrildi")
@@ -89,6 +89,20 @@ class ViewController: UIViewController {
             print(" yok olmadı")
         }
     }
+    
+ 
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    */
+    
+   
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

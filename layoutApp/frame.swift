@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kugim. All rights reserved.
 //
 
-import Foundation
+
 import UIKit
 
 func uiFrameSize (frame uiFrame: CGRect, isPortrail: Bool,x originX: CGFloat,y originY: CGFloat) -> CGRect {

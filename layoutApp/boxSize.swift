@@ -6,7 +6,7 @@
 //  Copyright © 2017 Kugim. All rights reserved.
 //
 
-import Foundation
+
 import UIKit
 func  boxSize () -> ( width: CGFloat, height: CGFloat) {
   let   screenWidth = (UIScreen.main.bounds.width - 60) / 2
